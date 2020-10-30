@@ -1,2 +1,6 @@
 # iOS-StudyProject
-iOS 스터디 주제 프로젝트를 저장하는 레포지토리입니다.
+| 스터디 | 주제            | 소스코드                                                     |
+| ------ | --------------- | ------------------------------------------------------------ |
+| 33주차 | Share Extension | https://github.com/khyunjiee/iOS-StudyProject/tree/main/ShareExtensionTest |
+
+

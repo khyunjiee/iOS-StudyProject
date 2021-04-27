@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomView" customModule="CustomViewDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="customLabel" destination="clP-j2-TZv" id="t8P-MK-qBF"/>
+                <outlet property="customView" destination="iN0-l3-epB" id="f0K-IA-ZPf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="299"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clP-j2-TZv">
+                    <rect key="frame" x="142.5" y="64" width="119" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9w-6v-DY5">
+                    <rect key="frame" x="182.5" y="203" width="39" height="32"/>
+                    <state key="normal" title="Click!"/>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="6ds-FG-6cJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="clP-j2-TZv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eTl-b0-cvm"/>
+                <constraint firstItem="a9w-6v-DY5" firstAttribute="top" secondItem="clP-j2-TZv" secondAttribute="bottom" constant="115" id="f5p-Ve-9mL"/>
+                <constraint firstItem="a9w-6v-DY5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="f6V-aL-Okx"/>
+                <constraint firstAttribute="bottom" secondItem="a9w-6v-DY5" secondAttribute="bottom" constant="64" id="zC4-4s-6nu"/>
+                <constraint firstItem="clP-j2-TZv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="zcp-l4-mcU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="130.43478260869566" y="-96.09375"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

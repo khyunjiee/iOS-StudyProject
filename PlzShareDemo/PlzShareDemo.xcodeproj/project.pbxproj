@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A9F9D01689B28FDFC64C432 /* Pods_PlzShareDemo_PlzShareDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3CF0336F4B125F9C52FFF /* Pods_PlzShareDemo_PlzShareDemoUITests.framework */; };
+		5219167D255EEBA20075BA96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219167C255EEBA20075BA96 /* AppDelegate.swift */; };
+		5219167F255EEBA20075BA96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219167E255EEBA20075BA96 /* SceneDelegate.swift */; };
+		52191681255EEBA20075BA96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52191680255EEBA20075BA96 /* ViewController.swift */; };
+		52191684255EEBA20075BA96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52191682255EEBA20075BA96 /* Main.storyboard */; };
+		52191686255EEBA50075BA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52191685255EEBA50075BA96 /* Assets.xcassets */; };
+		52191689255EEBA50075BA96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52191687255EEBA50075BA96 /* LaunchScreen.storyboard */; };
+		52191694255EEBA50075BA96 /* PlzShareDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52191693255EEBA50075BA96 /* PlzShareDemoTests.swift */; };
+		5219169F255EEBA50075BA96 /* PlzShareDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219169E255EEBA50075BA96 /* PlzShareDemoUITests.swift */; };
+		521916C2255EEFE70075BA96 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521916C1255EEFE70075BA96 /* ShareViewController.swift */; };
+		521916C5255EEFE70075BA96 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521916C3255EEFE70075BA96 /* MainInterface.storyboard */; };
+		521916C9255EEFE70075BA96 /* ShareShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 521916BF255EEFE70075BA96 /* ShareShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9A172DA0EC5129F6D1AB79F5 /* Pods_PlzShareDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5E1DA96E4F18717B4639A7 /* Pods_PlzShareDemoTests.framework */; };
+		DD1C179A0E63CB50A5C355CA /* Pods_ShareShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42D98C321A0BE7E04F63340 /* Pods_ShareShare.framework */; };
+		E58869BC8C0CED1C86C58B8A /* Pods_PlzShareDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE45A6CF7796B9487E08DD25 /* Pods_PlzShareDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52191690255EEBA50075BA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52191671255EEBA20075BA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52191678255EEBA20075BA96;
+			remoteInfo = PlzShareDemo;
+		};
+		5219169B255EEBA50075BA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52191671255EEBA20075BA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52191678255EEBA20075BA96;
+			remoteInfo = PlzShareDemo;
+		};
+		521916C7255EEFE70075BA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52191671255EEBA20075BA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521916BE255EEFE70075BA96;
+			remoteInfo = ShareShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		521916CD255EEFE70075BA96 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				521916C9255EEFE70075BA96 /* ShareShare.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0ACB102BF2AF19291DC468FC /* Pods-PlzShareDemo-PlzShareDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlzShareDemo-PlzShareDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-PlzShareDemo-PlzShareDemoUITests/Pods-PlzShareDemo-PlzShareDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10A3CF0336F4B125F9C52FFF /* Pods_PlzShareDemo_PlzShareDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlzShareDemo_PlzShareDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C79AF7623CC2DC4EEB6F164 /* Pods-PlzShareDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlzShareDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PlzShareDemoTests/Pods-PlzShareDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		214A7BB0AAD1417B0CAB17AB /* Pods-PlzShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlzShareDemo.release.xcconfig"; path = "Target Support Files/Pods-PlzShareDemo/Pods-PlzShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		24512545670A3F200E608102 /* Pods-PlzShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlzShareDemo.debug.xcconfig"; path = "Target Support Files/Pods-PlzShareDemo/Pods-PlzShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		52191679255EEBA20075BA96 /* PlzShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlzShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5219167C255EEBA20075BA96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5219167E255EEBA20075BA96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52191680255EEBA20075BA96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52191683255EEBA20075BA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52191685255EEBA50075BA96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52191688255EEBA50075BA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5219168A255EEBA50075BA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5219168F255EEBA50075BA96 /* PlzShareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlzShareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52191693255EEBA50075BA96 /* PlzShareDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlzShareDemoTests.swift; sourceTree = "<group>"; };
+		52191695255EEBA50075BA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5219169A255EEBA50075BA96 /* PlzShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlzShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5219169E255EEBA50075BA96 /* PlzShareDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlzShareDemoUITests.swift; sourceTree = "<group>"; };
+		521916A0255EEBA50075BA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521916BF255EEFE70075BA96 /* ShareShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		521916C1255EEFE70075BA96 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		521916C4255EEFE70075BA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		521916C6255EEFE70075BA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC069F1CE0951725128402F /* Pods-ShareShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareShare.release.xcconfig"; path = "Target Support Files/Pods-ShareShare/Pods-ShareShare.release.xcconfig"; sourceTree = "<group>"; };
+		7755638E4D5DB7CA205033D2 /* Pods-PlzShareDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlzShareDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PlzShareDemoTests/Pods-PlzShareDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E5E1DA96E4F18717B4639A7 /* Pods_PlzShareDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlzShareDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A6EFF115B9C8A225198BB3 /* Pods-PlzShareDemo-PlzShareDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlzShareDemo-PlzShareDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlzShareDemo-PlzShareDemoUITests/Pods-PlzShareDemo-PlzShareDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D42D98C321A0BE7E04F63340 /* Pods_ShareShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51BF053A161783CDD7DCA70 /* Pods-ShareShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareShare.debug.xcconfig"; path = "Target Support Files/Pods-ShareShare/Pods-ShareShare.debug.xcconfig"; sourceTree = "<group>"; };
+		DE45A6CF7796B9487E08DD25 /* Pods_PlzShareDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlzShareDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52191676255EEBA20075BA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58869BC8C0CED1C86C58B8A /* Pods_PlzShareDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5219168C255EEBA50075BA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A172DA0EC5129F6D1AB79F5 /* Pods_PlzShareDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52191697255EEBA50075BA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9F9D01689B28FDFC64C432 /* Pods_PlzShareDemo_PlzShareDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521916BC255EEFE70075BA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C179A0E63CB50A5C355CA /* Pods_ShareShare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52191670255EEBA20075BA96 = {
+			isa = PBXGroup;
+			children = (
+				5219167B255EEBA20075BA96 /* PlzShareDemo */,
+				52191692255EEBA50075BA96 /* PlzShareDemoTests */,
+				5219169D255EEBA50075BA96 /* PlzShareDemoUITests */,
+				521916C0255EEFE70075BA96 /* ShareShare */,
+				5219167A255EEBA20075BA96 /* Products */,
+				C563B422173DC6DCB993AF51 /* Pods */,
+				C86B9E507C90ECBD21062C4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5219167A255EEBA20075BA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52191679255EEBA20075BA96 /* PlzShareDemo.app */,
+				5219168F255EEBA50075BA96 /* PlzShareDemoTests.xctest */,
+				5219169A255EEBA50075BA96 /* PlzShareDemoUITests.xctest */,
+				521916BF255EEFE70075BA96 /* ShareShare.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5219167B255EEBA20075BA96 /* PlzShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5219167C255EEBA20075BA96 /* AppDelegate.swift */,
+				5219167E255EEBA20075BA96 /* SceneDelegate.swift */,
+				52191680255EEBA20075BA96 /* ViewController.swift */,
+				52191682255EEBA20075BA96 /* Main.storyboard */,
+				52191685255EEBA50075BA96 /* Assets.xcassets */,
+				52191687255EEBA50075BA96 /* LaunchScreen.storyboard */,
+				5219168A255EEBA50075BA96 /* Info.plist */,
+			);
+			path = PlzShareDemo;
+			sourceTree = "<group>";
+		};
+		52191692255EEBA50075BA96 /* PlzShareDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52191693255EEBA50075BA96 /* PlzShareDemoTests.swift */,
+				52191695255EEBA50075BA96 /* Info.plist */,
+			);
+			path = PlzShareDemoTests;
+			sourceTree = "<group>";
+		};
+		5219169D255EEBA50075BA96 /* PlzShareDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5219169E255EEBA50075BA96 /* PlzShareDemoUITests.swift */,
+				521916A0255EEBA50075BA96 /* Info.plist */,
+			);
+			path = PlzShareDemoUITests;
+			sourceTree = "<group>";
+		};
+		521916C0255EEFE70075BA96 /* ShareShare */ = {
+			isa = PBXGroup;
+			children = (
+				521916C1255EEFE70075BA96 /* ShareViewController.swift */,
+				521916C3255EEFE70075BA96 /* MainInterface.storyboard */,
+				521916C6255EEFE70075BA96 /* Info.plist */,
+			);
+			path = ShareShare;
+			sourceTree = "<group>";
+		};
+		C563B422173DC6DCB993AF51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24512545670A3F200E608102 /* Pods-PlzShareDemo.debug.xcconfig */,
+				214A7BB0AAD1417B0CAB17AB /* Pods-PlzShareDemo.release.xcconfig */,
+				C3A6EFF115B9C8A225198BB3 /* Pods-PlzShareDemo-PlzShareDemoUITests.debug.xcconfig */,
+				0ACB102BF2AF19291DC468FC /* Pods-PlzShareDemo-PlzShareDemoUITests.release.xcconfig */,
+				1C79AF7623CC2DC4EEB6F164 /* Pods-PlzShareDemoTests.debug.xcconfig */,
+				7755638E4D5DB7CA205033D2 /* Pods-PlzShareDemoTests.release.xcconfig */,
+				D51BF053A161783CDD7DCA70 /* Pods-ShareShare.debug.xcconfig */,
+				6CC069F1CE0951725128402F /* Pods-ShareShare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C86B9E507C90ECBD21062C4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE45A6CF7796B9487E08DD25 /* Pods_PlzShareDemo.framework */,
+				10A3CF0336F4B125F9C52FFF /* Pods_PlzShareDemo_PlzShareDemoUITests.framework */,
+				9E5E1DA96E4F18717B4639A7 /* Pods_PlzShareDemoTests.framework */,
+				D42D98C321A0BE7E04F63340 /* Pods_ShareShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52191678255EEBA20075BA96 /* PlzShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521916A3255EEBA50075BA96 /* Build configuration list for PBXNativeTarget "PlzShareDemo" */;
+			buildPhases = (
+				48EF5759E4D503D5CB133F06 /* [CP] Check Pods Manifest.lock */,
+				52191675255EEBA20075BA96 /* Sources */,
+				52191676255EEBA20075BA96 /* Frameworks */,
+				52191677255EEBA20075BA96 /* Resources */,
+				521916CD255EEFE70075BA96 /* Embed App Extensions */,
+				2D6BB969FA04B028834D2AB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521916C8255EEFE70075BA96 /* PBXTargetDependency */,
+			);
+			name = PlzShareDemo;
+			packageProductDependencies = (
+			);
+			productName = PlzShareDemo;
+			productReference = 52191679255EEBA20075BA96 /* PlzShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5219168E255EEBA50075BA96 /* PlzShareDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521916A6255EEBA50075BA96 /* Build configuration list for PBXNativeTarget "PlzShareDemoTests" */;
+			buildPhases = (
+				89493F83D51902C1526DF68A /* [CP] Check Pods Manifest.lock */,
+				5219168B255EEBA50075BA96 /* Sources */,
+				5219168C255EEBA50075BA96 /* Frameworks */,
+				5219168D255EEBA50075BA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52191691255EEBA50075BA96 /* PBXTargetDependency */,
+			);
+			name = PlzShareDemoTests;
+			productName = PlzShareDemoTests;
+			productReference = 5219168F255EEBA50075BA96 /* PlzShareDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52191699255EEBA50075BA96 /* PlzShareDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521916A9255EEBA50075BA96 /* Build configuration list for PBXNativeTarget "PlzShareDemoUITests" */;
+			buildPhases = (
+				E683856C4755480AE7C0F5C6 /* [CP] Check Pods Manifest.lock */,
+				52191696255EEBA50075BA96 /* Sources */,
+				52191697255EEBA50075BA96 /* Frameworks */,
+				52191698255EEBA50075BA96 /* Resources */,
+				D15426942F4341B27DABF378 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5219169C255EEBA50075BA96 /* PBXTargetDependency */,
+			);
+			name = PlzShareDemoUITests;
+			productName = PlzShareDemoUITests;
+			productReference = 5219169A255EEBA50075BA96 /* PlzShareDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		521916BE255EEFE70075BA96 /* ShareShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521916CA255EEFE70075BA96 /* Build configuration list for PBXNativeTarget "ShareShare" */;
+			buildPhases = (
+				0BB43F87D55DC7A3DA2B775E /* [CP] Check Pods Manifest.lock */,
+				521916BB255EEFE70075BA96 /* Sources */,
+				521916BC255EEFE70075BA96 /* Frameworks */,
+				521916BD255EEFE70075BA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareShare;
+			productName = ShareShare;
+			productReference = 521916BF255EEFE70075BA96 /* ShareShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52191671255EEBA20075BA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					52191678255EEBA20075BA96 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					5219168E255EEBA50075BA96 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 52191678255EEBA20075BA96;
+					};
+					52191699255EEBA50075BA96 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 52191678255EEBA20075BA96;
+					};
+					521916BE255EEFE70075BA96 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 52191674255EEBA20075BA96 /* Build configuration list for PBXProject "PlzShareDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52191670255EEBA20075BA96;
+			packageReferences = (
+			);
+			productRefGroup = 5219167A255EEBA20075BA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52191678255EEBA20075BA96 /* PlzShareDemo */,
+				5219168E255EEBA50075BA96 /* PlzShareDemoTests */,
+				52191699255EEBA50075BA96 /* PlzShareDemoUITests */,
+				521916BE255EEFE70075BA96 /* ShareShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52191677255EEBA20075BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52191689255EEBA50075BA96 /* LaunchScreen.storyboard in Resources */,
+				52191686255EEBA50075BA96 /* Assets.xcassets in Resources */,
+				52191684255EEBA20075BA96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5219168D255EEBA50075BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52191698255EEBA50075BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521916BD255EEFE70075BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521916C5255EEFE70075BA96 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BB43F87D55DC7A3DA2B775E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D6BB969FA04B028834D2AB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlzShareDemo/Pods-PlzShareDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlzShareDemo/Pods-PlzShareDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlzShareDemo/Pods-PlzShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48EF5759E4D503D5CB133F06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlzShareDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89493F83D51902C1526DF68A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlzShareDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15426942F4341B27DABF378 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlzShareDemo-PlzShareDemoUITests/Pods-PlzShareDemo-PlzShareDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlzShareDemo-PlzShareDemoUITests/Pods-PlzShareDemo-PlzShareDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlzShareDemo-PlzShareDemoUITests/Pods-PlzShareDemo-PlzShareDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E683856C4755480AE7C0F5C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlzShareDemo-PlzShareDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52191675255EEBA20075BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52191681255EEBA20075BA96 /* ViewController.swift in Sources */,
+				5219167D255EEBA20075BA96 /* AppDelegate.swift in Sources */,
+				5219167F255EEBA20075BA96 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5219168B255EEBA50075BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52191694255EEBA50075BA96 /* PlzShareDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52191696255EEBA50075BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5219169F255EEBA50075BA96 /* PlzShareDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521916BB255EEFE70075BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521916C2255EEFE70075BA96 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52191691255EEBA50075BA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52191678255EEBA20075BA96 /* PlzShareDemo */;
+			targetProxy = 52191690255EEBA50075BA96 /* PBXContainerItemProxy */;
+		};
+		5219169C255EEBA50075BA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52191678255EEBA20075BA96 /* PlzShareDemo */;
+			targetProxy = 5219169B255EEBA50075BA96 /* PBXContainerItemProxy */;
+		};
+		521916C8255EEFE70075BA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521916BE255EEFE70075BA96 /* ShareShare */;
+			targetProxy = 521916C7255EEFE70075BA96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52191682255EEBA20075BA96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52191683255EEBA20075BA96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52191687255EEBA50075BA96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52191688255EEBA50075BA96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		521916C3255EEFE70075BA96 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521916C4255EEFE70075BA96 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521916A1255EEBA50075BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		521916A2255EEBA50075BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521916A4255EEBA50075BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24512545670A3F200E608102 /* Pods-PlzShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN2FPFX532;
+				INFOPLIST_FILE = PlzShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyunji.PlzShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521916A5255EEBA50075BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214A7BB0AAD1417B0CAB17AB /* Pods-PlzShareDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN2FPFX532;
+				INFOPLIST_FILE = PlzShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyunji.PlzShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		521916A7255EEBA50075BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C79AF7623CC2DC4EEB6F164 /* Pods-PlzShareDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYJWF25337;
+				INFOPLIST_FILE = PlzShareDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyunji.PlzShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlzShareDemo.app/PlzShareDemo";
+			};
+			name = Debug;
+		};
+		521916A8255EEBA50075BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7755638E4D5DB7CA205033D2 /* Pods-PlzShareDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYJWF25337;
+				INFOPLIST_FILE = PlzShareDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyunji.PlzShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlzShareDemo.app/PlzShareDemo";
+			};
+			name = Release;
+		};
+		521916AA255EEBA50075BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A6EFF115B9C8A225198BB3 /* Pods-PlzShareDemo-PlzShareDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYJWF25337;
+				INFOPLIST_FILE = PlzShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyunji.PlzShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlzShareDemo;
+			};
+			name = Debug;
+		};
+		521916AB255EEBA50075BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACB102BF2AF19291DC468FC /* Pods-PlzShareDemo-PlzShareDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYJWF25337;
+				INFOPLIST_FILE = PlzShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyunji.PlzShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlzShareDemo;
+			};
+			name = Release;
+		};
+		521916CB255EEFE70075BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51BF053A161783CDD7DCA70 /* Pods-ShareShare.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN2FPFX532;
+				INFOPLIST_FILE = ShareShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyunji.PlzShareDemo.ShareShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521916CC255EEFE70075BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC069F1CE0951725128402F /* Pods-ShareShare.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN2FPFX532;
+				INFOPLIST_FILE = ShareShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyunji.PlzShareDemo.ShareShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52191674255EEBA20075BA96 /* Build configuration list for PBXProject "PlzShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521916A1255EEBA50075BA96 /* Debug */,
+				521916A2255EEBA50075BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521916A3255EEBA50075BA96 /* Build configuration list for PBXNativeTarget "PlzShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521916A4255EEBA50075BA96 /* Debug */,
+				521916A5255EEBA50075BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521916A6255EEBA50075BA96 /* Build configuration list for PBXNativeTarget "PlzShareDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521916A7255EEBA50075BA96 /* Debug */,
+				521916A8255EEBA50075BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521916A9255EEBA50075BA96 /* Build configuration list for PBXNativeTarget "PlzShareDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521916AA255EEBA50075BA96 /* Debug */,
+				521916AB255EEBA50075BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521916CA255EEFE70075BA96 /* Build configuration list for PBXNativeTarget "ShareShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521916CB255EEFE70075BA96 /* Debug */,
+				521916CC255EEFE70075BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52191671255EEBA20075BA96 /* Project object */;
+}
